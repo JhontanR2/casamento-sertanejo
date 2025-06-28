@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laço e Nó - Casamentos Sertanejos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sytle.css"> 
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo Laço e Nó">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="menu-navegacao">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Page/servicos.html">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Page/galeria.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Page/sobre.html">Sobre Nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Page/contato.html">Contato</a></li>
+                    </ul>
+                    <button class="btn btn-login px-3" data-bs-toggle="modal" data-bs-target="#modal-login">Login</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carrossel-principal" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrossel-principal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrossel-principal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrossel-principal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('img/padrinhos-madrinhas-e-noivos-em-casamento-country.jpg'); height: 90vh; background-size: cover; background-position: center;">
+                    <div class="container h-100 d-flex flex-column justify-content-center align-items-start text-white">
+                        <h1 class="display-3 text-white">Tradição e Amor no Campo</h1>
+                        <p class="lead col-md-6">Realizamos o seu sonho com a autenticidade e o calor da cultura sertaneja.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(img/fotos_casamento_casal_noivos_ana_claudia_henrique_hipica_incitatatus_valinhos_sp_fotografo_denis_silveira_fotografia-87.jpeg); height: 90vh; background-size: cover; background-position: center;">
+                    <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-white">
+                        <h1 class="display-3 text-white">Cenários Inesquecíveis</h1>
+                        <p class="lead col-md-6 text-center">Cada detalhe é pensado para refletir a personalidade e a história de vocês.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(img/fotos_casamento_casal_noivos_ana_claudia_henrique_hipica_incitatatus_valinhos_sp_fotografo_denis_silveira_fotografia-109.jpeg); height: 90vh; background-size: cover; background-position: center;">
+                     <div class="container h-100 d-flex flex-column justify-content-center align-items-end text-white">
+                        <h1 class="display-3 text-white text-end">O "Sim" Mais Especial</h1>
+                        <p class="lead col-md-6 text-end">Sua única preocupação é viver o momento. O resto, pode deixar com a gente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrossel-principal" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrossel-principal" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+        
+        <div class="container my-5 text-center">
+             <h2 class="display-5">Bem-vindos à Laço e Nó</h2>
+             <p class="lead text-muted">Cuidamos de cada detalhe para que sua única preocupação seja viver o seu grande dia.</p>
+        </div>
+
+        <section class="secao-pacotes">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2>Conheça Nossos Pacotes</h2>
+                    <p class="lead text-muted">Temos a solução perfeita para o tamanho do seu sonho.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-4"><div class="card card-pacote text-center"><div class="card-header">Laço de Prata</div><div class="card-body"><h3 class="preco">R$ 5.000</h3><p class="text-muted">Ideal para cerimônias íntimas e charmosas.</p><ul class="list-group list-group-flush"><li class="list-group-item">Assessoria parcial</li><li class="list-group-item">Decoração da cerimônia</li><li class="list-group-item">Equipe de coordenação no dia</li><li class="list-group-item text-muted"><del>Buffet completo</del></li></ul></div><div class="card-footer bg-transparent border-0 pb-4"><a href="Page/servicos.html" class="btn btn-outline-secondary">Ver Detalhes</a></div></div></div>
+                    <div class="col-lg-4 mb-4"><div class="card card-pacote destaque text-center"><div class="card-header">Nó de Ouro</div><div class="card-body"><h3 class="preco">R$ 12.000</h3><p class="text-muted">O nosso pacote mais popular e completo.</p><ul class="list-group list-group-flush"><li class="list-group-item">Assessoria completa</li><li class="list-group-item">Decoração da cerimônia e festa</li><li class="list-group-item">Equipe de coordenação no dia</li><li class="list-group-item">Indicação de fornecedores</li></ul></div><div class="card-footer bg-transparent border-0 pb-4"><a href="Page/servicos.html" class="btn btn-login">Quero Este!</a></div></div></div>
+                    <div class="col-lg-4 mb-4"><div class="card card-pacote text-center"><div class="card-header">Sonho Real</div><div class="card-body"><h3 class="preco">R$ 20.000+</h3><p class="text-muted">Para quem busca uma experiência exclusiva e total.</p><ul class="list-group list-group-flush"><li class="list-group-item">Assessoria Premium completa</li><li class="list-group-item">Projeto de decoração exclusivo</li><li class="list-group-item">Gestão total de fornecedores</li><li class="list-group-item">Produção de eventos pré-casamento</li></ul></div><div class="card-footer bg-transparent border-0 pb-4"><a href="Page/servicos.html" class="btn btn-outline-secondary">Ver Detalhes</a></div></div></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2025 Laço e Nó. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="modal-login" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Acesso Cliente</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body"><form><div class="mb-3"><label for="email-login" class="form-label">Email</label><input type="email" class="form-control" id="email-login"></div><div class="mb-3"><label for="senha-login" class="form-label">Senha</label><input type="password" class="form-control" id="senha-login"></div></form></div>
+                <div class="modal-footer justify-content-between"><a href="#" class="small">Esqueceu sua senha?</a><button type="button" class="btn btn-primary" style="background-color: #5d4037; border: none;">Entrar</button></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
